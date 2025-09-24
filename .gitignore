@@ -1,0 +1,21 @@
+# Ir a la raíz del proyecto (salir de scripts)
+cd ..
+
+# Crear .gitignore
+echo "# Archivos de credenciales
+keys/
+*.json
+**/*key*.json
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+.env
+
+# Resultados y archivos temporales
+results/
+*.log
+.DS_Store" > .gitignore
